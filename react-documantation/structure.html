@@ -1,0 +1,153 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Documantation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- font-awesome v4.6.3 css -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- modernizr css -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <div class="sidebar-wrap">
+        <ul>
+            <li><a href="index.html">Introduction</a></li>
+            <li><a href="installation.html">Installation</a></li>
+            <li class="active"><a href="structure.html"> File Structure</a></li>
+            <li><a href="components.html">Components</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <!-- <li><a href="changelog.html">Changelog</a></li> -->
+        </ul>
+    </div>
+    <div class="header-area">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="">
+        </div>
+        <h2>File Structure</h2>
+    </div>
+
+    <div class="main-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-wrap">
+                        <div class="structure-wrap">
+                            <h3>PROJECT STRUCTURE</h3>
+                            <p>Nasarna has React project: </p>
+                            <pre class="documentation__structure">
+                                <code>
+                                Nasarna/
+                                    |——template
+                                    |  |——docs/
+                                    |  |  |——css/     
+                                    |  |  |——general
+                                    |  |  |——js
+                                    |  |——app/
+                                    |  |  |——components/                    --all basic component here
+                                    |  |  |    |—— 404/
+                                    |  |  |    |—— about/
+                                    |  |  |    |—— BlogDetails/
+                                    |  |  |    |—— BlogDetailsSection/
+                                    |  |  |    |—— BlogDetailsLeft/
+                                    |  |  |    |—— BlogFullwidth/
+                                    |  |  |    |—— BlogLeft/
+                                    |  |  |    |—— BlogList/
+                                    |  |  |    |—— BlogSection/
+                                    |  |  |    |—— BlogSidebar/
+                                    |  |  |    |—— case/
+                                    |  |  |    |—— case2/
+                                    |  |  |    |—— CaseSingle/
+                                    |  |  |    |—— CommentForm/
+                                    |  |  |    |—— Contactpage/
+                                    |  |  |    |—— ContactSection/
+                                    |  |  |    |—— Counter/
+                                    |  |  |    |—— cta/
+                                    |  |  |    |—— Donate/
+                                    |  |  |    |—— Event/
+                                    |  |  |    |—— Event2/
+                                    |  |  |    |—— EventSingle/
+                                    |  |  |    |—— Footer/
+                                    |  |  |    |—— header/
+                                    |  |  |    |—— HeaderTopbar/
+                                    |  |  |    |—— hero/
+                                    |  |  |    |—— hero2/
+                                    |  |  |    |—— hero3/
+                                    |  |  |    |—— mission/
+                                    |  |  |    |—— MobileMenu/
+                                    |  |  |    |—— ModalVideo/
+                                    |  |  |    |—— Newsletter/
+                                    |  |  |    |—— pagetitle/
+                                    |  |  |    |—— scrollbar/
+                                    |  |  |    |—— SidebarWrap/
+                                    |  |  |    |—— team/
+                                    |  |  |    |—— vediocta/
+                                    |  |  |    |—— Volunteer/
+                                    |  |  |    |—— World/
+                                    |  |  |-main-component/
+                                    |  |  |    |——__router/                 --all route file
+                                    |  |  |    |——AboutPage/                --AboutPage
+                                    |  |  |    |——App/                      --main app js
+                                    |  |  |    |——BlogDetails/                    --BlogDetails
+                                    |  |  |    |——BlogDetailsFull/                    --BlogDetailsFull
+                                    |  |  |    |——BlogDetailsLeftSiide/                    --BlogDetailsLeftSiide
+                                    |  |  |    |——BlogPage/                    --BlogPage
+                                    |  |  |    |——BlogPageFullwidth/                    --BlogPageFullwidth
+                                    |  |  |    |——BlogPageLeft/                    --BlogPageLeft
+                                    |  |  |    |——CasePage/                    --CasePage
+                                    |  |  |    |——CaseSinglePage/                    --CaseSinglePage
+                                    |  |  |    |——ContactPage/                    --ContactPage
+                                    |  |  |    |——DonatePage/                    --DonatePage
+                                    |  |  |    |——ErrorPage/                    --ErrorPage
+                                    |  |  |    |——EventPage/                    --EventPage
+                                    |  |  |    |——EventPageSingle/                    --EventPageSingle
+                                    |  |  |    |——ForgotPassword/                    --ForgotPassword
+                                    |  |  |    |——HomePage/                    --Home Page
+                                    |  |  |    |——HomePage2/                    --Home Page2
+                                    |  |  |    |——HomePage3/                    --Home Page3
+                                    |  |  |    |——LoginPage/                    --Login Page
+                                    |  |  |    |——SignUpPage/                    --SignUp Page
+                                    |  |  |    |——volunteerPage/                    --volunteerPage
+                                    |  |  |——images/                        --all static images 
+                                    |  |  |——tests/                         --test file
+                                    |  |  |——translations/                  --all translation file (en,fr, etc)
+                                    |  |  |——utils/                         --all statick data and common js
+                                    |  |  |——app.js
+                                    |  |  |——styles.js
+                                    |  |  |——index.html
+                                    |  |  |——.env                       
+                                    |  |——package.json
+                                    |  |——package-lock.json
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery latest version -->
+    <script src="assets/js/vendor/jquery-2.2.4.min.js "></script>
+    <!-- popper.min.js -->
+    <script src="assets/js/vendor/popper.min.js "></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js "></script>
+    <!-- main js -->
+    <script src="assets/js/scripts.js "></script>
+</body>
+
+</html>
