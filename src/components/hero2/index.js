@@ -1,6 +1,7 @@
 
 import React from 'react'
 import './style.css'
+import FadeInAnimation from "../fadeIn/fade";
 
 const Hero2 = (props) => {
     let referral = (new URLSearchParams(window.location.search)).get("referral")
@@ -15,10 +16,16 @@ const Hero2 = (props) => {
                     <div className="row">
                         <div className="col col-lg-6 slide-caption">
                             <div className="slide-title" style = {advert}>
+                            <FadeInAnimation direction="up" delay={0.5}>
                                 <h2 style = {advert}><span style ={advert3}>HOSCE</span></h2> 
+                                </FadeInAnimation>
+                                <FadeInAnimation direction="left" delay={1.5}>
                                 <h2 style = {advert}> Bussiness Training</h2>
                                 <h2 style = {advert1}> & </h2>
+                                </FadeInAnimation>
+                                <FadeInAnimation direction="left" delay={1.5}>
                                 <h2 style = {advert}>Empowerment Programme</h2>
+                                </FadeInAnimation>
                             </div>
                         </div>
                     </div>

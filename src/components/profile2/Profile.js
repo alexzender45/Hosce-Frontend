@@ -23,6 +23,7 @@ class Profile extends React.Component {
     singleUser: []
   }
   this.getToken = this.getToken.bind(this);
+  this.logout = this.logout.bind(this)
   this.fetchUser = this.fetchUser.bind(this);
   this.loggedIn = this.loggedIn.bind(this);
   this.isTokenExpired = this.isTokenExpired.bind(this);
@@ -36,6 +37,14 @@ class Profile extends React.Component {
     // Checks if there is a saved token and it's still valid
     const token = this.getToken() // GEtting token from localstorage
     return !!token && !this.isTokenExpired(token) // handwaiving here
+}
+
+logout() {
+  // Retrieves the user token from localStorage
+  localStorage.removeItem('token');
+  localStorage.removeItem('role');
+  this.props.history.push('/login')
+
 }
 
 isTokenExpired(token) {
@@ -99,6 +108,9 @@ fetchUser() {
                 </div>
             </Row>
           </Container>
+          <Grid className="formFooter" style = {size3}>
+            <Button href = '/users' className="cBtn cBtnLarge cBtnTheme" onClick={this.logout} style = {size2}>Logout</Button>
+            </Grid>
         {/* Page content */}
         <Container className="mt--7" fluid style = {size}>
           <Row>
@@ -168,7 +180,7 @@ fetchUser() {
                     <div className="col">
                       <div className="card-profile-stats d-flex justify-content-center mt-md-5">
                         <div>
-                          <h3 style = {size1}><span className="heading">Av Earning :  {this.state.singleUser.availableincome}</span></h3>
+                          <h3 style = {size1}><span className="heading">Money Paid Out :  {this.state.singleUser.availableincome}</span></h3>
                         </div>
                       </div>
                     </div>
@@ -181,7 +193,7 @@ fetchUser() {
                     <div className="col">
                       <div className="card-profile-stats d-flex justify-content-center mt-md-5">
                         <div>
-                          <h3 style = {size1}><span className="heading">Total Earning :  {this.state.singleUser.totalearning}</span></h3>
+                          <h3 style = {size1}><span className="heading">Total Earning :  {this.state.singleUser.totalearning + this.state.singleUser.amountByReferral}</span></h3>
                         </div>
                       </div>
                     </div>

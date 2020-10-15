@@ -5,6 +5,7 @@ import SimpleReactValidator from "simple-react-validator";
 import {toast} from "react-toastify";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
+import { height } from '@material-ui/system';
 import {Link, withRouter} from "react-router-dom";
 import s1 from '../../images/shape.png'
 
@@ -77,6 +78,7 @@ class Signup extends React.Component {
     }
     handleInput8(event) {
         this.setState({ status: event.target.value }, () => {
+            console.log(this.state.status)
             this.validator.showMessages();
         });
     }
@@ -177,7 +179,7 @@ class Signup extends React.Component {
                     console.log(localStorage.getItem('token'))
                     toast.success('Registration Complete successfully!');
                     localStorage.removeItem('referral')
-                    this.props.history.push('/');
+                    this.props.history.push('/me');
                 } else if (json.status === 'error') {
                     this.validator.showMessages();
                     toast.error(json.error)
@@ -293,10 +295,10 @@ class Signup extends React.Component {
                             <TextField
                                 className="inputOutline"
                                 fullWidth
-                                placeholder="Bank Details"
+                                placeholder="A/C Name: A/C No: Bank:"
                                 variant="outlined"
                                 name="bankdetails"
-                                label="Bank"
+                                label="Bank Details"
                                 id="bankdetails"
                                 value={this.state.bankdetails}
                                 InputLabelProps={{
@@ -326,22 +328,23 @@ class Signup extends React.Component {
                             {this.validator.message('password', this.state.password, 'required')}
                         </Grid>
                         <Grid item xs={12}>
-                            <TextField
-                                className="inputOutline"
-                                fullWidth
-                                placeholder="Payment Status"
-                                variant="outlined"
-                                name="status"
-                                label="Payment Status"
-                                id="status"
-                                value={this.state.status}
-                                InputLabelProps={{
-                                    shrink: true,
-                                }}
-                                onBlur={this.handleInput8}
-                                onChange={this.handleInput8}
-                            />
-                            {this.validator.message('payment status', this.state.status, 'required')}
+                        <label>
+                        Select Amount you Paid:
+                        <select id="dropdown"
+                        style={size}
+                        className="inputOutline"
+                         onChange={this.handleInput8}
+                         title="Select Your Payment"
+                         >
+                         <option >Select Payment</option>
+                        <option >Starter Pack 5,000</option>
+                        <option >Bronze Pack 10,500</option>
+                        <option >Silver Pack 55,000</option>
+                        <option >Diamond Pack 110,000</option>
+                        <option >Gold Pack 225,000</option>
+                        </select>
+                        </label>
+                        {this.validator.message('payment status', this.state.status, 'required')}
                         </Grid>
                         <Grid item xs={12}>
                             <TextField
@@ -378,5 +381,7 @@ class Signup extends React.Component {
     )
 }
     }
-
+const size = {
+    height: '50px'
+}
 export default withRouter(Signup);

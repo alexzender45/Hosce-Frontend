@@ -8,11 +8,13 @@ import abimg2 from '../../images/slider/empower.jpg'
 import {Link}  from 'react-router-dom'
 import abimg3 from '../../images/slider/opportunity.jpg'
 import abimg4 from '../../images/slider/achievement.jpg'
+//import VedioCta from '../vediocta'
 import './style.css'
+
 
 const Mission = (props) => {
     return(
-        <div className={`wpo-mission-area ${props.subclass}`}>
+        <div className={`wpo-mission-area ${props.subclass}`}>//
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -29,8 +31,8 @@ const Mission = (props) => {
                                     <img src={ms3} alt=""/>
                                 </div>
                                 <div className="wpo-mission-content">
-                                    <h2 style = {size5}>Learning</h2>
-                                    <p>When it comes to business success, passion is not enough. Even hard work is not an ideal. There are tools that a business owner needs to constantly apply to remain afloat</p>
+                                    <h2 style = {size5}> VISION</h2>
+                                    <p>To Train People on Business Management courses, and offer them a platform to raise funds to pursue business goals.</p>
                                 </div>
                             </div>
                         </div>
@@ -40,8 +42,8 @@ const Mission = (props) => {
                                     <img src={ms1} alt=""/>
                                 </div>
                                 <div className="wpo-mission-content">
-                                    <h2 style = {size5}>Empowerment</h2>
-                                    <p>Many ideas and dreams that would have made the world a better place to live have died simply because those who conceived them had no means to fund them.</p>
+                                    <h2 style = {size5}>MISSION</h2>
+                                    <p>To assist at least 10,000,000 people all over the world to own their own business and become financially independent.</p>
                                 </div>
                             </div>
                         </div>
@@ -51,8 +53,8 @@ const Mission = (props) => {
                                     <img src={ms2} alt=""/>
                                 </div>
                                 <div className="wpo-mission-content">
-                                    <h2 style = {size5}>Opportunities</h2>
-                                    <p> What is standing between you and the dream in your heart is the will to try and the faith to tap from the opportunities around you. The opportunity is here! HOSCE is the answer! </p>
+                                    <h2 style = {size5}>GOAL</h2>
+                                    <p>To bridge the gap between the poor and the rich, and offer every member equal opportunities to achieve his or her financial dreams.</p>
                                 </div>
                             </div>
                         </div>
@@ -62,8 +64,8 @@ const Mission = (props) => {
                                     <img src={ms4} alt=""/>
                                 </div>
                                 <div className="wpo-mission-content">
-                                    <h2 style = {size5}>Achievement</h2>
-                                    <p>To achieve result in any business will require strategies to pursue your dreams. HOSCE has developed unique training tools that will drive you to an enviable success.  </p>
+                                    <h2 style = {size5}> METHOD</h2>
+                                    <p>Our Training method is flexible. Training takes place at the company's office, seminar centers, zoom and WhatsApp.</p>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +149,8 @@ const Mission = (props) => {
     )
 }
 const size = {
-    width: '100%'
+    width: '60%',
+    borderRadius: '15%'
 }
 const size2 = {
     marginTop:'110px'
@@ -162,7 +165,7 @@ const size4 = {
 }
 const size5 = {
     color: '#111dbec5',
-    fontWeight:'30px'
+    fontWeight:'30px',
 }
 const size6 = {
     fontWeight:'100px'

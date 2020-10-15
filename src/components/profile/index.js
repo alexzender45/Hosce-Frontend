@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 import './style.css'
 import blog1 from '../../images/blog/img-7.jpg'
 import blog2 from '../../images/blog/img-8.jpg'
@@ -14,14 +13,15 @@ const BlogSingle = () => {
                             <div className="post">
                                 <h1 style ={size3}>COMPANY PROFILE</h1>
                                 <p>
-                               <b>HOSCE; an arm of The Rock Fes</b> stands for <b>‘Help Others Succeed Community Empowerment’.</b> We produce super 21st century CEOs through HOSCE business management trainings. Also, we assist our members to raise funds for business and other capital projects. 
-                                The programme is open for business owners, salary earners, job seekers, unemployed persons and anybody who seeks financial freedom. Students can be part of it as it will assist them to raise funds to pursue education and personal goals
+                                <b>HOSCE; an arm of The Rock Fes</b> stands for ‘Help Others Succeed Community Empowerment’.It produces super 21st century CEOs through its business training programmes.
+                                 It assists partners to raise funds for business and other capital projects.
                                   </p>
                                 <p>
-                                HOSCE does not only create job for the masses, 
-                                it also creates independent millionaires in the shortest time without struggle. 
-                                The programme offers members the opportunity to raise funds infinitely up to <b>#50, 000,000/$100, 000 </b>to pursue life dreams. 
-                                This is possible because we have the tools that will guide you through the business.
+                                The programme is open for business owners, salary earners, job seekers, unemployed persons and anybody who seeks the means to raise funds at ease.
+                                 Students can be part of it as it will assist them to raise funds to pursue education and personal goals.
+                                </p>
+                                <p>
+                                HOSCE does not only create jobs for the masses, it also creates independent millionaires in the shortest time without struggle.
                                 </p>
                                 <div className="entry-media">
                                     <img src={blog1} alt=""/>
@@ -30,9 +30,9 @@ const BlogSingle = () => {
                                 <h4>As a registered member of HOSCE, you will break the chain of financial struggle.</h4>
                                 <ol>
                                     <li>Earn 50% registration fee of new partners under you.</li>
-                                    <li>Earn from company’s 50% spillover bonus.</li>
+                                    <li>Earn income from indirect partners.</li>
+                                    <li>Earn from the company's 50% spillover bonus.</li>
                                     <li>Cash back bonus.</li>
-                                    <li>Daily income up to #50, 000 /$100.</li>
                                     <li>Opportunity for international travels.</li>
                                     <li>Car award.</li>
                                     <li>House award.</li>
@@ -69,59 +69,94 @@ const BlogSingle = () => {
                                      <li><b>by conversion</b></li>
                                  </ul>
                                  <h3><b>OUR PAY </b></h3>
-                                 <p>Our business plan is awesome and highly commendable. We are proud to say that no MLM company has developed such a pay plan system in history.
-                                     We operate a flat pay structure which rewards commitment and devotion.
+                                 <p>Our business plan is awesome and highly commendable. We are proud to say that no MLM company in history has developed such an awesome pay plan system.
+                                      We operate a flat pay structure which rewards commitment and devotion to HOSCE business.
                                      </p>
                                  <p>
-                                 Below shows how the company has structured its pay plan to raise and save the start-up capital funds without tempering with them by members.
-                                 However, members have the right to indicate how they want the company to pay them when filling the registration form.
+                                 Below shows how the company has structured its pay plan to raise funds for partners.
                                  </p>
-                                 <h3><b>DIRECT INCOME</b></h3>
+                                 <h2><b>HOSCE PACKAGE</b></h2>
+                                 <p>There are five (5) package a member may choose to register. Any package you choose qualifies you to undergo HOSCE business management training programme.
+                                      It also qualifies you to make money in the company.</p>
+                                 <h3>The package are;</h3>
                                  <ol>
-                                     <li><b>Category one:</b> 2 people = N10, 000 Start up Capital</li>
-                                     <li><b>Category two:</b> 5 people = N25, 000 Start up Capital.</li>
-                                     <li><b>Category three:</b> 10 people = N50, 000 Start up Capital + Performance bonus.</li>
-                                     <li><b>Category four:</b> 20 people = N100, 000 Start up Capital.</li>
-                                     <li><b>Category five:</b> 30 people = N150, 000 Start up Capital + Performance Bonus.</li>
-                                     <li><b>Category six:</b> 40 people = N200, 000 Start up Capital</li>
-                                     <li><b>Category seven:</b> 50 people = N250, 000 Start up Capital + Washing Machine.</li>
-                                     <li><b>Category eight:</b> 100 people = N500, 000 Start up Capital + Family Get Together.</li>
-                                     <li><b>Director one:</b> 200 people = #1, 000, 000 start-up capital + Performance bonus.</li>
-                                     <li><b>Director two:</b> 400 people = #2, 000, 000 start-up capital + travelling opportunity.</li>
-                                     <li><b>Director three:</b> 500 people = #3, 000, 000 start-up capital+ travelling fund. </li>
-                                     <li><b>Director four: </b>800 people = #4, 000, 000 start-up capital+ travelling fund</li>
-                                     <li><b>Director five:</b> 1000 people = #5, 000, 000 start-up capital+ travelling opportunity.</li>
-                                     <li><b>Commander:</b> 1000 – 2000 people = #10, 000, 000 start-up Capital + car Award</li>
-                                     <li><b>General:</b> 2000 -4000 people = #20, 000, 000 start-up capital + House Award.</li>
-                                     <li><b>CEO: </b> 4000 – 8000 people = #40, 000, 000 start-up capital + Car Award.</li>
-                                     <li><b>President:</b> 8000 –10, 000 people = #50, 000,000 start-up capital + Salary for Life.</li>
+                                     <li><b>STARTER PACKAGE</b></li>
+                                     <li><b>BRONZE PACKAGE</b></li>
+                                     <li><b>SILVER PACKAGE</b></li>
+                                     <li><b>DIAMOND PACKAGE</b></li>
+                                     <li><b>GOLD PACKAGE</b></li>
                                  </ol>
-                                 <p>Note: Our exchange rate #360 per one dollar and it is used during payment</p>
-                                 <h3><b>INDIRECT INCOME</b></h3>
-                                 <p>These are income from various sources which the company pays to its members. These include;</p>
-                                 <ul>
-                                     <li>i.	50% spill over referral bonus. That’s, you can receive referral bonus from the investment of people who you did not refer. This earning is from people who join the company through its online adverts and part of  their registration fees are shared according to member’s category, services and efforts that lead to company’s advancement.</li>
-                                     <li>ii.Performance bonus at various levels.  </li>
-                                     <li>iii.100% cash back bonus. This occurs when a member registers ten persons in a day within the first one month of his/her registration.</li>
-                                     <li>iv.#36,000 /$100 performance bonus/ plasma tv/washing machine. This occurs whenever you have one hundred referrals in a month.</li>
-                                     <li>v. Conversion bonus. The company converts travelling opportunity or similar opportunities to cash in the case a member feels he or she does not want the opportunity. </li>
-                                     <li>vi.Salary for life. This is for members who have reached the final stage of HOSCE business programme. The company places such people on salary for life.</li>
-                                 </ul>
-                                 <p>
-                                 <b>Note: A registered member is required to pay tax to the government and it may be deducted from his payment.</b>
-                                 </p>
+                                 <p><b>Let's explain each package briefly.</b></p>
+                                 <h2><b>A. STARTER PACKAGE</b></h2>
+                                 <p><b>Registration Fee: #5,500 / $15</b></p>
+                                 <h4>INCOME</h4>
+                                 <p><b> 50℅ income from direct Partners' Reg. Fee (e.i #2,500 / $5).</b></p>
+                                 <p><b>Example; If 10 people join the company through your link, your income for that day is #2500 x 10 = #25,000.Plus Performance Bonuses.</b></p>
+                                 <h2><b>B.  BRONZE  PACKAGE </b></h2>
+                                 <p><b>Registration Fee:  #10,500 / $30</b></p>
+                                 <h4>INCOME</h4>
+                                 <p><b>50℅ income from direct Partners' Reg. Fee (e.i #5000 / $10)</b></p>
+                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #5000 x 10 = #50,000</b></p>
+                                 <ol>
+                                     <li><b>5% 2nd Generation partners’ fee.</b></li>
+                                     <li><b>2% 3rd Generation partners’ fee.</b></li>
+                                     <li><b>Car Award</b></li>
+                                     <li><b>House fund.</b></li>
+                                     <li><b>Travelling opportunities.</b></li>
+                                     <li><b>Salary for life.</b></li>
+                                     <li><b>Various bonuses.</b></li>
+                                 </ol>
+                                 <h2><b>C.  SILVER PACKAGE</b></h2>
+                                 <p><b>Registration Fee: #55,000 / $110.</b></p>
+                                 <h3>INCOME</h3>
+                                 <p><b>50℅ income from direct Partners' Reg. fee (#25,000 / $50)</b></p>
+                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #25, 000 x 10 = #250, 000</b></p>
+                                 <ol>
+                                     <li><b>5% 2nd Generation partners’ Reg. fee.</b></li>
+                                     <li><b>2% 3rd Generation partners’ Reg. fee.</b></li>
+                                     <li><b> 1% 4th – 12th Generation partners’ Reg. fee.</b></li>
+                                     <li><b>Car Award: 100 Direct Partners. That's, the company awards a car when you have 100 direct referrals under you</b></li>
+                                     <li><b>House fund.</b></li>
+                                     <li><b>Travelling opportunities.</b></li>
+                                     <li><b>Salary for life.</b></li>
+                                     <li><b>Various bonuses.</b></li>
+                                 </ol>
+                                 <h2><b>D. DIAMOND PACKAGE</b></h2>
+                                 <p><b> Registration Fee: #110,000 / $220.</b></p>
+                                 <h3>INCOME</h3>
+                                 <p><b>50℅ income from direct Partners' Reg. fee (#50,000 / $100).</b></p>
+                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #50, 000 x 10 = #500,000</b></p>
+                                 <ol>
+                                     <li><b>5% 2nd Generation partners’ Reg. fee.</b></li>
+                                     <li><b>2% 3rd Generation partners’ Reg. fee.</b></li>
+                                     <li><b> 1% 4th – 12th Generation partners’ Reg. fee.</b></li>
+                                     <li><b>Car Award: 50 Direct Partners.That's, the company awards a car when you have 50 direct referrals under you.</b></li>
+                                     <li><b>House fund.</b></li>
+                                     <li><b>Travelling opportunities.</b></li>
+                                     <li><b>Salary for life.</b></li>
+                                     <li><b>Various bonuses.</b></li>
+                                 </ol>
+                                 <h2><b>E. GOLD PACKAGE</b></h2>
+                                 <p><b> Registration Fee: (#225,000 /$5000)</b></p>
+                                 <h3>INCOME</h3>
+                                 <p><b>50℅ income from direct Partners' Reg. fee (#100,000 / $200).</b></p>
+                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #100, 000 x 10 = #1,000,000</b></p>
+                                 <ol>
+                                     <li><b>5% 2nd Generation partners’ Reg. fee.</b></li>
+                                     <li><b>2% 3rd Generation partners’ Reg. fee.</b></li>
+                                     <li><b> 1% 4th – 12th Generation partners’ Reg. fee.</b></li>
+                                     <li><b>Car Award: 25 Direct Partners.That's, the company awards a car when you have 25 direct referrals under you.</b></li>
+                                     <li><b>House fund.</b></li>
+                                     <li><b>Travelling opportunities.</b></li>
+                                     <li><b>Salary for life.</b></li>
+                                     <li><b>Various bonuses.</b></li>
+                                 </ol>
                                  <h3>FLAT STRUCTURE PAY PLAN</h3>
                                  <div className="entry-media">
                                     <img src={blog2} alt=""/>
                                 </div>
                                 <h3>REGISTRATION</h3>
-                                <p>We have two kinds of registration;</p>
-                                <ol>
-                                    <li>Full Registration: Registration with<b> N10, 500 /$30 </b>membership fee which is paid once.</li>
-                                    <li>Half Registration: Registration with<b> N5, 500 /$15</b> membership fee. However, 
-                                        the company takes the balance of<b> N5, 000/$15 </b>only from a member’s income during payment.</li>
-                                </ol>
-                                <p> Registration can be done online, at the company’s office or at your seminar centre.</p>
+                                <h4><p> Registration can be done online, at the company’s office or at your seminar centre.</p>
                                  <p> 
                                  	Registration fee is paid directly to the company’s bank account or etherum wallet. Do not give cash to any agent or sponsor. 
                                  </p>
@@ -130,17 +165,9 @@ const BlogSingle = () => {
                                  <p>A/c number: 0123173919</p>
                                  <p>Bank: Wema Bank Plc</p>
                                  <p>OR</p>
-                                 <p>Etherun Coin.</p>
+                                 <p>Etherun Coin. <b>0x52f479363776b73146027C1786e1EFBC1c1a6527</b></p>
+                                 </h4>
                             </div>
-                            <div className="tag-share clearfix">
-                                <div className="share">
-                                    <ul>
-                                        <li><Link to="/blog-details"><i className="ti-facebook"></i></Link></li>
-                                        <li><Link to="/blog-details"><i className="ti-twitter-alt"></i></Link></li>
-                                        <li><Link to="/blog-details"><i className="ti-instagram"></i></Link></li>
-                                    </ul>
-                                </div>
-                            </div> 
                         </div> 
                     </div>
                 </div>

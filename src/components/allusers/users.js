@@ -3,7 +3,6 @@ import { withRouter } from "react-router-dom";
 import decode from 'jwt-decode';
 import {Link}  from 'react-router-dom'
 import moment from 'moment'
-import ms4 from '../../images/mission/icon4.png'
 
 // reactstrap components
 import {
@@ -19,7 +18,8 @@ class Allusers extends React.Component {
   constructor(props) {
     super(props);
   this.state = {
-    Users: []
+    Users: [],
+    allusers: 0
   }
   this.getToken = this.getToken.bind(this);
   this.fetchUsers = this.fetchUsers.bind(this);
@@ -80,7 +80,7 @@ fetchUsers() {
                 .then(json => {
                     if (json.status === 'success') {
                      this.setState({ Users: json.users })
-                     console.log(this.state.Users.rows)
+                     this.setState({ allusers: json.allUsers.count })
      }
     })
   }
@@ -102,6 +102,11 @@ fetchUsers() {
           </Container>
         {/* Page content */}
         <Container className="mt--7" fluid style = {size}>
+        <div className="d-flex align-items-center">
+                    <div>
+                        <CardTitle><h2>Total Users <b> {this.state.allusers} </b></h2></CardTitle>
+                    </div>
+                </div>
     <Card>
             <CardBody>
                 <div className="d-flex align-items-center">
@@ -113,7 +118,7 @@ fetchUsers() {
                     <thead>
                         <tr className="border-0">
                             <th className="border-0">Hosce Users</th>
-                            <th className="border-0">Users Id</th>
+                            <th className="border-0">NO of Referrals</th>
 
                             <th className="border-0">Status</th>
                             <th className="border-0">Reg Date</th>
@@ -125,13 +130,13 @@ fetchUsers() {
                         <tr>
                             <td>
                                 <div className="d-flex no-block align-items-center">
-                                    <div className="mr-2"><img src={ms4} alt="user" className="rounded-circle" width="45" /></div>
+                
                                     <div className="">
                                         <Link to = {`/edit/${show.id}`}><h5 className="mb-0 font-16 font-medium">{show.username}</h5><span>{show.email}</span></Link></div>
                                 </div>
                                 
                             </td>
-                            <td>{show.id}</td>
+                            <td>{show.referralCount}</td>
 
                             <td>
                                 {show.status}

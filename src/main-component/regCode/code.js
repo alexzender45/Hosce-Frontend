@@ -98,8 +98,8 @@ class CreateCode extends React.Component {
         <Grid className="loginWrapper">
 
             <Grid className="loginForm">
-                <h2>Register</h2>
-                <p>Register To Become A Memember</p>
+                <h2>Generate Code</h2>
+                <p>Registration Code</p>
                     <Grid container spacing={3}>
                         <Grid item xs={12}>
                             <TextField

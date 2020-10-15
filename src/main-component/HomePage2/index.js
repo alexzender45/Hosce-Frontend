@@ -5,7 +5,6 @@ import Mission from '../../components/mission'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 
-
 const HomePage2 =() => {
     return(
         <Fragment>

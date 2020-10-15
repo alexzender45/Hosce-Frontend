@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import vimg from '../../images/about-vedio.jpg'
+import vimg from '../../images/about-vedio.PNG'
 import VideoModal from '../../components/ModalVideo'
 
 const VedioCta = (props) => {
@@ -16,7 +16,7 @@ const VedioCta = (props) => {
                                     <VideoModal/>
                                 </div>
                             </div>
-                            <h2>See what we do for the <span>poor people and the children</span></h2>
+                            <h2 style = {size}> <span>Hosce</span> Programme Changes Lives</h2>
                         </div>
                     </div>
                 </div>
@@ -24,5 +24,7 @@ const VedioCta = (props) => {
         </div>
     )
 }
-
+ const size = {
+     marginTop: '-10px'
+ }
 export default VedioCta;

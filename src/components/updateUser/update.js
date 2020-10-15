@@ -34,7 +34,7 @@ class EditUser extends React.Component {
         status: '',
         availableincome: '',
         totalearning: '',
-        amountByReferral: ''
+        amountByReferral: '',
         }
         this.getToken = this.getToken.bind(this);
         this.fetchUser = this.fetchUser.bind(this);
@@ -176,7 +176,7 @@ onSubmit = e => {
             })
         e.preventDefault();
         }   
-
+      
         deleteUser = e => {
             e.preventDefault();               
             const headers = new Headers({
@@ -317,7 +317,7 @@ onSubmit = e => {
                                 className="form-control-label"
                                 htmlFor="input-availableincome"
                               >
-                                Available Income
+                                Money Paid Out
                               </label>
                               <Input
                                 className="form-control-alternative"
@@ -340,7 +340,7 @@ onSubmit = e => {
                                 className="form-control-alternative"
                                 id="input-totalearning"
                                 type="text"
-                                value={this.state.totalearning}
+                                value={this.state.amountByReferral}
                                 onChange={this.handleInput7}
                               />
                             </FormGroup>
@@ -370,10 +370,10 @@ onSubmit = e => {
                                 <Button className="cBtn cBtnLarge cBtnTheme" type="submit">Update</Button>
                             </Grid>
                             {(() => {
-        if (localStorage.getItem('email') === 'admin@gmail.com') {
+        if (localStorage.getItem('email') === 'alexzendersamuel33@gmail.com' || localStorage.getItem('email') === 'hopeforthenation9@gmail.com') {
           return (
             <Grid className="formFooter" style = {size2}>
-                                <Button className="cBtn cBtnLarge" type="submit" onClick = {this.deleteUser}>Delete</Button>
+                                <Button className="cBtn cBtnLarge" type="submit" onClick = {this.deleteUser} style = {size4}>Delete</Button>
                             </Grid>
           )
         } else {
@@ -395,5 +395,11 @@ const size2 = {
 }
 const size3 = {
     marginTop: '30px'
+}
+
+const size4 = {
+  marginTop: '30px',
+  marginBottom: '30px',
+  marginRight: '15px'
 }
   export default withRouter(EditUser);

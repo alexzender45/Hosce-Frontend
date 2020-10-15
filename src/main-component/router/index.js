@@ -13,10 +13,10 @@ import EventPageSingle from '../EventPageSingle'
 import RegisterForm from '../Register'
 import BlogDetails from '../BlogDetails' 
 import ErrorPage from '../ErrorPage'  
+import ForgotPassword from '../ForgotPassword'
 import ContactPage from '../ContactPage' 
 import LoginPage from '../LoginPage' 
-import SignUpPage from '../SignUpPage' 
-import ForgotPassword from '../ForgotPassword' 
+import SignUpPage from '../SignUpPage'  
       
 
 const AllRoute = () => { 

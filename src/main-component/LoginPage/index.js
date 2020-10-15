@@ -94,7 +94,7 @@ class LoginPage extends React.Component {
                      toast.error(json.error);
                     }
                 })
-            e.preventDefault();   
+            e.preventDefault();  
 }
 componentDidMount(){
     if(this.loggedIn()){
