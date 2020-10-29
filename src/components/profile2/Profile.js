@@ -167,7 +167,7 @@ fetchUser() {
                     <div className="col">
                       <div className="card-profile-stats d-flex justify-content-center mt-md-5">
                         <div>
-                          <h3 style = {size1}><span className="heading">Referral Earning :  {this.state.singleUser.amountByReferral}</span></h3>
+                          <h3 style = {size1}><span className="heading">Total Earning :  {this.state.singleUser.amountByReferral + this.state.singleUser.totalearning }</span></h3>
                         </div>
                       </div>
                     </div>
@@ -193,7 +193,7 @@ fetchUser() {
                     <div className="col">
                       <div className="card-profile-stats d-flex justify-content-center mt-md-5">
                         <div>
-                          <h3 style = {size1}><span className="heading">Total Earning :  {this.state.singleUser.totalearning + this.state.singleUser.amountByReferral}</span></h3>
+                          <h3 style = {size1}><span className="heading">Spill Over :  {this.state.singleUser.totalearning}</span></h3>
                         </div>
                       </div>
                     </div>

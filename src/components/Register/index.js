@@ -4,10 +4,6 @@ import {Link}  from 'react-router-dom'
 
 const Register = (props) => {
 
-    const SubmitHandler = (e) =>{
-        e.preventDefault()
-    }
-
     return(
         <div className="wpo-donation-page-area section-padding">
             <div className="container">
@@ -24,11 +20,11 @@ const Register = (props) => {
                                     </div>
                                 </div>
                                 <div>
-                                <h5 style = {size4}>A. STARTER PACKAGE: <b>#5,500 / $15</b></h5>
-                            <h5 style = {size4}>B. BRONZE PACKAGE: <b>#10,500 / $30</b></h5>
-                               <h5 style = {size4}>C. SILVER PACKAGE: Registration <b>#55,000 / $110</b></h5>
-                                   <h5 style = {size4}>D. DIAMOND PACKAGE:Registration <b>#110,000 / $220</b></h5>
-                                      <h5 style = {size4}>E. GOLD PACKAGE: Registration <b>#225,000/$500</b></h5>
+                                <h5 style = {size4}>A. STARTER PACKAGE: Registration<b> #5,500 / $15</b></h5>
+                            <h5 style = {size4}>B. BRONZE PACKAGE: Registration<b> #10,500 / $30</b></h5>
+                               <h5 style = {size4}>C. SILVER PACKAGE: Registration <b> #55,000 / $110</b></h5>
+                                   <h5 style = {size4}>D. DIAMOND PACKAGE:Registration <b> #110,000 / $220</b></h5>
+                                      <h5 style = {size4}>E. GOLD PACKAGE: Registration <b> #225,000/$500</b></h5>
                             <h2 style = {size4}>Account Details</h2>
                             <h6 style = {size4}>A/C Name: The Rock Fes</h6>
                             <h6 style = {size4}>A/C No: 0123173919</h6>

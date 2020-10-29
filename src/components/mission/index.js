@@ -32,7 +32,7 @@ const Mission = (props) => {
                                 </div>
                                 <div className="wpo-mission-content">
                                     <h2 style = {size5}> VISION</h2>
-                                    <p>To Train People on Business Management courses, and offer them a platform to raise funds to pursue business goals.</p>
+                                    <p>To create a platform that assists members make money and become successful in life and business</p>
                                 </div>
                             </div>
                         </div>

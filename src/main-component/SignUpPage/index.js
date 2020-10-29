@@ -5,7 +5,6 @@ import SimpleReactValidator from "simple-react-validator";
 import {toast} from "react-toastify";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
-import { height } from '@material-ui/system';
 import {Link, withRouter} from "react-router-dom";
 import s1 from '../../images/shape.png'
 
@@ -337,7 +336,7 @@ class Signup extends React.Component {
                          title="Select Your Payment"
                          >
                          <option >Select Payment</option>
-                        <option >Starter Pack 5,000</option>
+                        <option >Starter Pack 5,500</option>
                         <option >Bronze Pack 10,500</option>
                         <option >Silver Pack 55,000</option>
                         <option >Diamond Pack 110,000</option>

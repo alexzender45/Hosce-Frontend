@@ -11,95 +11,80 @@ const BlogSingle = () => {
                     <div className="col col-lg-8 col-12">
                         <div className="wpo-wpo-blog-content clearfix">
                             <div className="post">
-                                <h1 style ={size3}>COMPANY PROFILE</h1>
-                                <p>
-                                <b>HOSCE; an arm of The Rock Fes</b> stands for ‘Help Others Succeed Community Empowerment’.It produces super 21st century CEOs through its business training programmes.
-                                 It assists partners to raise funds for business and other capital projects.
-                                  </p>
-                                <p>
-                                The programme is open for business owners, salary earners, job seekers, unemployed persons and anybody who seeks the means to raise funds at ease.
-                                 Students can be part of it as it will assist them to raise funds to pursue education and personal goals.
-                                </p>
-                                <p>
-                                HOSCE does not only create jobs for the masses, it also creates independent millionaires in the shortest time without struggle.
-                                </p>
-                                <div className="entry-media">
+                            <h1 style ={size3}>COMPANY PROFILE</h1>
+                            <div className="entry-media">
                                     <img src={blog1} alt=""/>
                                 </div>
-                                <h1>HOW DOES HOSCE BUSINESS WORK?</h1>
-                                <h4>As a registered member of HOSCE, you will break the chain of financial struggle.</h4>
-                                <ol>
-                                    <li>Earn 50% registration fee of new partners under you.</li>
-                                    <li>Earn income from indirect partners.</li>
-                                    <li>Earn from the company's 50% spillover bonus.</li>
-                                    <li>Cash back bonus.</li>
-                                    <li>Opportunity for international travels.</li>
-                                    <li>Car award.</li>
-                                    <li>House award.</li>
-                                    <li>Salary for life.</li>
-                                    <li>Various bonuses and gifts.</li>
-                                    <li>Flat pay structure.</li>
-                                </ol>
-                                <h1>BUSINESS OPPORTUNITY</h1>
-                                <h4>WE TRAIN YOU IN BUSINESS MANAGEMENT</h4>
-                                <h5>Our training courses are as follow</h5>
-                                <ol>
-                                    <li>TRF 101= Transformational Business Leadership</li>
-                                    <li>TRF 203 = Advanced Customer Driving Tools.</li>
-                                    <li>TRF 305 = HOSCE Business Strategy and Execution.</li>
-                                </ol>
                                 <p>
-                                With these courses, you will never be the same. Your knowledge about business will be widened as you will gain new knowledge that will enable you become an ideal business man/woman.
-                                 The programme will open your life up for new opportunities and you will understand that success is dependent on calling.
+                                <b>HOSCE; an arm of The Rock Fes stands for 'Help Others Succeed Community Empowerment'.</b>
+                                    We are in the business of assisting people to make money and become successful in life and business.
+                                    To achieve this, we have created a platform that defines our vision.
                                   </p>
-                                  <h4>WE ASSIST YOU TO RAISE FUNDS</h4>
+                                <p><b>A. We offer master class Business Management Training Programme and award professional diploma certificate at the end.</b>
+                                </p>
+                                <p>
+                                <b>B. HOSCE Business (Make Money) Programme.</b>
+                                </p>
+                                <p>A prospect makes a choice on which of these two concepts he or she wants during application</p>
+                                <p>Those who apply and are admitted into the professional management training programme will not be involved in the networking aspect of 'HOSCE'. They will concentrate on the management programme and at the end they will be awarded Professional Diploma Certificate.</p>
+
+                                <h4>A. HOSCE MANAGEMENT PROGRAMME:</h4>
+                                <p>A prospect who wishes to register for HOSCE professional management training programme will be required to select one of these courses for study.</p>
+                                <ul>
+                                    <li>1. Professional Business Management. This course is designed for CEOs, Professionals, consultants & company managers.</li>
+                                    <li>2. Advanced Professional Leadership Programme. The course is designed for professionals, Pastors & circular Leaders.</li>
+                                    <li>3. General Business Management Training. This is for SMEs, network marketers & prospective Business persons</li>
+                                </ul>
+                                <p>Duration of Programme: 12 contacts.</p>
                                   <p>
-                                  <b>HOSCE</b> has developed awesome methods to assist members to raise business start-up capital and funds for other projects. However,
-                                   your income will depend on your commitment and devotion to HOSCE business plan and its referral system.
-                                  </p>
-                                  <p>
-                                  Your funds will come in the following ways;
+                                  Method of lecture:
                                  </p>
                                  <ul>
-                                     <li><b>by direct referral system.</b></li>
-                                     <li><b>by spill over .</b></li>
-                                     <li><b>by cash back.</b></li>
-                                     <li><b>by performance bonuses.</b></li>
-                                     <li><b>by account transfer.</b></li>
-                                     <li><b>by conversion</b></li>
+                                     <li><b>One on one contact.</b></li>
+                                     <li><b>Videos.</b></li>
+                                     <li><b>Audios</b></li>
+                                     <li><b>Zoom etc..</b></li>
                                  </ul>
-                                 <h3><b>OUR PAY </b></h3>
-                                 <p>Our business plan is awesome and highly commendable. We are proud to say that no MLM company in history has developed such an awesome pay plan system.
-                                      We operate a flat pay structure which rewards commitment and devotion to HOSCE business.
-                                     </p>
-                                 <p>
-                                 Below shows how the company has structured its pay plan to raise funds for partners.
-                                 </p>
-                                 <h2><b>HOSCE PACKAGE</b></h2>
-                                 <p>There are five (5) package a member may choose to register. Any package you choose qualifies you to undergo HOSCE business management training programme.
-                                      It also qualifies you to make money in the company.</p>
-                                 <h3>The package are;</h3>
-                                 <ol>
-                                     <li><b>STARTER PACKAGE</b></li>
-                                     <li><b>BRONZE PACKAGE</b></li>
-                                     <li><b>SILVER PACKAGE</b></li>
-                                     <li><b>DIAMOND PACKAGE</b></li>
-                                     <li><b>GOLD PACKAGE</b></li>
-                                 </ol>
+                                 <p>Note: Candidates who register for the management training programme will not be involved in HOSCE business programme.
+                                      However, they may run the two together or register for the HOSCE MLM programme separately.</p>
+                                 <h4>B. HOSCE BUSINESS (MAKE MONEY) PROGRAMME.</h4>
+                                 <p>HOSCE business ( make money) programme is centered on the principle of building success through others. It has been proven that all the wealthy people in the world are wealthy through relationship capital.
+                                      Therefore, HOSCE builds it's wealth creation process on other people. This is briefly explained below;</p>
+                                 <ul>
+                                     <li> OPM: Other People's Money.</li>
+                                     <li>OPT: Other People's Time.</li>
+                                     <li>OPI: Other People's Ideas.</li>
+                                     <li>OPE: Other People's Enterprise.</li>
+                                 </ul>
+                                 <p>The concept is that no member of the society can succeed enough without other peoples contributions to his or her success.
+                                      Hence, you can achieve your financial dreams through others even if you don't have the means.</p>
+                                      <h4>HOSCE BUSINESS OPERATIONS:</h4>
+                                      <p>A prospect who joins the company with the aim of making money may take a course on HOSCE business management strategy.
+                                           However, the focus shall be on   equipping members with skills to make money in HOSCE business.</p>
+                                           <p>Therefore, a prospect is to choose which package he or she wants during registration.</p>
+                                           <p><b> What You Gain:</b></p>
+                                           <ul>
+                                               <li> You earn 50℅ of new partners' registration fees as direct income if they register through your referral link.</li>
+                                               <li>You earn 5℅ income from indirect partners under you.</li>
+                                               <li>You earn 5℅ income from indirect partners under you.</li>
+                                               <li>You earn 5℅ income from indirect partners under you.</li>
+                                           </ul>
                                  <p><b>Let's explain each package briefly.</b></p>
                                  <h2><b>A. STARTER PACKAGE</b></h2>
                                  <p><b>Registration Fee: #5,500 / $15</b></p>
                                  <h4>INCOME</h4>
-                                 <p><b> 50℅ income from direct Partners' Reg. Fee (e.i #2,500 / $5).</b></p>
+                                 <ol>
+                                 <li><b> 50℅ income from direct Partners' Reg. Fee (e.i #2,500 / $5).</b></li>
+                                 <li><b>5% 2nd Generation partners’ fee.</b></li>
+                                 </ol>
                                  <p><b>Example; If 10 people join the company through your link, your income for that day is #2500 x 10 = #25,000.Plus Performance Bonuses.</b></p>
                                  <h2><b>B.  BRONZE  PACKAGE </b></h2>
                                  <p><b>Registration Fee:  #10,500 / $30</b></p>
                                  <h4>INCOME</h4>
-                                 <p><b>50℅ income from direct Partners' Reg. Fee (e.i #5000 / $10)</b></p>
-                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #5000 x 10 = #50,000</b></p>
                                  <ol>
+                                 <li><b>50℅ income from direct Partners' Reg. Fee (e.i #500 / $10)</b></li>
+                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #5000 x 10 = #50,000</b></p>
                                      <li><b>5% 2nd Generation partners’ fee.</b></li>
-                                     <li><b>2% 3rd Generation partners’ fee.</b></li>
                                      <li><b>Car Award</b></li>
                                      <li><b>House fund.</b></li>
                                      <li><b>Travelling opportunities.</b></li>
@@ -109,12 +94,10 @@ const BlogSingle = () => {
                                  <h2><b>C.  SILVER PACKAGE</b></h2>
                                  <p><b>Registration Fee: #55,000 / $110.</b></p>
                                  <h3>INCOME</h3>
-                                 <p><b>50℅ income from direct Partners' Reg. fee (#25,000 / $50)</b></p>
-                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #25, 000 x 10 = #250, 000</b></p>
                                  <ol>
+                                 <li><b>50℅ income from direct Partners' Reg. fee (#25,000 / $50)</b></li>
+                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #25, 000 x 10 = #250, 000</b></p>
                                      <li><b>5% 2nd Generation partners’ Reg. fee.</b></li>
-                                     <li><b>2% 3rd Generation partners’ Reg. fee.</b></li>
-                                     <li><b> 1% 4th – 12th Generation partners’ Reg. fee.</b></li>
                                      <li><b>Car Award: 100 Direct Partners. That's, the company awards a car when you have 100 direct referrals under you</b></li>
                                      <li><b>House fund.</b></li>
                                      <li><b>Travelling opportunities.</b></li>
@@ -124,12 +107,10 @@ const BlogSingle = () => {
                                  <h2><b>D. DIAMOND PACKAGE</b></h2>
                                  <p><b> Registration Fee: #110,000 / $220.</b></p>
                                  <h3>INCOME</h3>
-                                 <p><b>50℅ income from direct Partners' Reg. fee (#50,000 / $100).</b></p>
-                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #50, 000 x 10 = #500,000</b></p>
                                  <ol>
+                                 <li><b>50℅ income from direct Partners' Reg. fee (#50,000 / $100).</b></li>
+                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #50, 000 x 10 = #500,000</b></p>
                                      <li><b>5% 2nd Generation partners’ Reg. fee.</b></li>
-                                     <li><b>2% 3rd Generation partners’ Reg. fee.</b></li>
-                                     <li><b> 1% 4th – 12th Generation partners’ Reg. fee.</b></li>
                                      <li><b>Car Award: 50 Direct Partners.That's, the company awards a car when you have 50 direct referrals under you.</b></li>
                                      <li><b>House fund.</b></li>
                                      <li><b>Travelling opportunities.</b></li>
@@ -139,12 +120,10 @@ const BlogSingle = () => {
                                  <h2><b>E. GOLD PACKAGE</b></h2>
                                  <p><b> Registration Fee: (#225,000 /$5000)</b></p>
                                  <h3>INCOME</h3>
-                                 <p><b>50℅ income from direct Partners' Reg. fee (#100,000 / $200).</b></p>
-                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #100, 000 x 10 = #1,000,000</b></p>
                                  <ol>
+                                 <li><b>50℅ income from direct Partners' Reg. fee (#100,000 / $200).</b></li>
+                                 <p><b>Example; If 10 people join the company through your link, your direct income for that day is #100, 000 x 10 = #1,000,000</b></p>
                                      <li><b>5% 2nd Generation partners’ Reg. fee.</b></li>
-                                     <li><b>2% 3rd Generation partners’ Reg. fee.</b></li>
-                                     <li><b> 1% 4th – 12th Generation partners’ Reg. fee.</b></li>
                                      <li><b>Car Award: 25 Direct Partners.That's, the company awards a car when you have 25 direct referrals under you.</b></li>
                                      <li><b>House fund.</b></li>
                                      <li><b>Travelling opportunities.</b></li>
@@ -156,17 +135,14 @@ const BlogSingle = () => {
                                     <img src={blog2} alt=""/>
                                 </div>
                                 <h3>REGISTRATION</h3>
-                                <h4><p> Registration can be done online, at the company’s office or at your seminar centre.</p>
-                                 <p> 
-                                 	Registration fee is paid directly to the company’s bank account or etherum wallet. Do not give cash to any agent or sponsor. 
-                                 </p>
+                                <h4>Registration can be done online, at the company’s office or at your seminar centre.</h4>
+                                 <h4>Registration fee is paid directly to the company’s bank account or etherum wallet. Do not give cash to any agent or sponsor.</h4> 
                                  <h5>Company payment details:</h5>
                                  <p>A/c name: The Rock Fes.</p>
                                  <p>A/c number: 0123173919</p>
                                  <p>Bank: Wema Bank Plc</p>
                                  <p>OR</p>
                                  <p>Etherun Coin. <b>0x52f479363776b73146027C1786e1EFBC1c1a6527</b></p>
-                                 </h4>
                             </div>
                         </div> 
                     </div>

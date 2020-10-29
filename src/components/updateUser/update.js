@@ -300,7 +300,7 @@ onSubmit = e => {
                                 className="form-control-label"
                                 htmlFor="input-status"
                               >
-                                Staus
+                                Status
                               </label>
                               <Input
                                 className="form-control-alternative"
@@ -341,7 +341,7 @@ onSubmit = e => {
                                 id="input-totalearning"
                                 type="text"
                                 value={this.state.amountByReferral}
-                                onChange={this.handleInput7}
+                                onChange={this.handleInput8}
                               />
                             </FormGroup>
                           </Col>
@@ -351,14 +351,14 @@ onSubmit = e => {
                                 className="form-control-label"
                                 htmlFor="input-amountByReferral"
                               >
-                                Amount By Referral
+                                Spill Over
                               </label>
                               <Input
                                 className="form-control-alternative"
                                 id="input-amountByReferral"
                                 type="text"
-                                value={this.state.amountByReferral}
-                                onChange={this.handleInput8}
+                                value={this.state.totalearning}
+                                onChange={this.handleInput7}
                               />
                             </FormGroup>
                           </Col>
