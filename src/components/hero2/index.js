@@ -19,11 +19,11 @@ const Hero2 = (props) => {
                             <FadeInAnimation direction="up" delay={0.5}>
                                 <h2 style = {advert}><span style ={advert3}>HOSCE</span></h2> 
                                 </FadeInAnimation>
-                                <FadeInAnimation direction="left" delay={1.5}>
+                                <FadeInAnimation direction="left" delay={1}>
                                 <h2 style = {advert}> Bussiness Training</h2>
                                 <h2 style = {advert1}> & </h2>
                                 </FadeInAnimation>
-                                <FadeInAnimation direction="left" delay={1.5}>
+                                <FadeInAnimation direction="left" delay={1}>
                                 <h2 style = {advert}>Empowerment Programme</h2>
                                 </FadeInAnimation>
                             </div>
