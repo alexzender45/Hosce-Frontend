@@ -66,8 +66,6 @@ const BlogSingle = () => {
                                            <ul>
                                                <li> You earn 50℅ of new partners' registration fees as direct income if they register through your referral link.</li>
                                                <li>You earn 5℅ income from indirect partners under you.</li>
-                                               <li>You earn 5℅ income from indirect partners under you.</li>
-                                               <li>You earn 5℅ income from indirect partners under you.</li>
                                            </ul>
                                  <p><b>Let's explain each package briefly.</b></p>
                                  <h2><b>A. STARTER PACKAGE</b></h2>
@@ -82,7 +80,7 @@ const BlogSingle = () => {
                                  <p><b>Registration Fee:  #10,500 / $30</b></p>
                                  <h4>INCOME</h4>
                                  <ol>
-                                 <li><b>50℅ income from direct Partners' Reg. Fee (e.i #500 / $10)</b></li>
+                                 <li><b>50℅ income from direct Partners' Reg. Fee (e.i #5,000 / $10)</b></li>
                                  <p><b>Example; If 10 people join the company through your link, your direct income for that day is #5000 x 10 = #50,000</b></p>
                                      <li><b>5% 2nd Generation partners’ fee.</b></li>
                                      <li><b>Car Award</b></li>
@@ -118,7 +116,7 @@ const BlogSingle = () => {
                                      <li><b>Various bonuses.</b></li>
                                  </ol>
                                  <h2><b>E. GOLD PACKAGE</b></h2>
-                                 <p><b> Registration Fee: (#225,000 /$5000)</b></p>
+                                 <p><b> Registration Fee: (#225,000 /$500)</b></p>
                                  <h3>INCOME</h3>
                                  <ol>
                                  <li><b>50℅ income from direct Partners' Reg. fee (#100,000 / $200).</b></li>
