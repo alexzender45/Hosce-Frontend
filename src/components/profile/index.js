@@ -20,20 +20,12 @@ const BlogSingle = () => {
                                     We are in the business of assisting people to make money and become successful in life and business.
                                     To achieve this, we have created a platform that defines our vision.
                                   </p>
-                                <p><b>A. We offer master class Business Management Training Programme and award professional diploma certificate at the end.</b>
-                                </p>
-                                <p>
-                                <b>B. HOSCE Business (Make Money) Programme.</b>
-                                </p>
-                                <p>A prospect makes a choice on which of these two concepts he or she wants during application</p>
-                                <p>Those who apply and are admitted into the professional management training programme will not be involved in the networking aspect of 'HOSCE'. They will concentrate on the management programme and at the end they will be awarded Professional Diploma Certificate.</p>
-
                                 <h4>A. HOSCE MANAGEMENT PROGRAMME:</h4>
                                 <p>A prospect who wishes to register for HOSCE professional management training programme will be required to select one of these courses for study.</p>
                                 <ul>
-                                    <li>1. Professional Business Management. This course is designed for CEOs, Professionals, consultants & company managers.</li>
-                                    <li>2. Advanced Professional Leadership Programme. The course is designed for professionals, Pastors & circular Leaders.</li>
-                                    <li>3. General Business Management Training. This is for SMEs, network marketers & prospective Business persons</li>
+                                    <li>1. Corporate Management Programme: This course is designed for CEOs, Professionals, consultants & company managers.</li>
+                                    <li>2. Advance Leadership Programme. The course is designed for professionals, Pastors & circular Leaders.</li>
+                                    <li>3. Small Scale Enterprise Programme. This is for SMEs, network marketers & prospective Business persons</li>
                                 </ul>
                                 <p>Duration of Programme: 12 contacts.</p>
                                   <p>

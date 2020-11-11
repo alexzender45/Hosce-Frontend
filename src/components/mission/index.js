@@ -25,6 +25,18 @@ const Mission = (props) => {
                 </div>
                 <div className="wpo-mission-wrap">
                     <div className="row">
+                    <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
+                            <div className="wpo-mission-item">
+                                <div className="wpo-mission-icon-6">
+                                    <img src={ms1} alt=""/>
+                                </div>
+                                <div className="wpo-mission-content">
+                                    <h2 style = {size5}>Concept</h2>
+                                    Our Offer:
+                                    <p>1. Business Management & Leadership Programme. 2. Hosce Make Money Programme</p>
+                                </div>
+                            </div>
+                        </div>
                         <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item">
                                 <div className="wpo-mission-icon-5">
@@ -32,18 +44,7 @@ const Mission = (props) => {
                                 </div>
                                 <div className="wpo-mission-content">
                                     <h2 style = {size5}> VISION</h2>
-                                    <p>To create a platform that assists members make money and become successful in life and business</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
-                            <div className="wpo-mission-item">
-                                <div className="wpo-mission-icon-6">
-                                    <img src={ms1} alt=""/>
-                                </div>
-                                <div className="wpo-mission-content">
-                                    <h2 style = {size5}>MISSION</h2>
-                                    <p>To assist at least 10,000,000 people all over the world to own their own business and become financially independent.</p>
+                                    <p>To create a platform that assists people in building business and make money, to become successful in life.</p>
                                 </div>
                             </div>
                         </div>
@@ -77,12 +78,15 @@ const Mission = (props) => {
                             <div className="wpo-section-title">
                                 <h2 style = {size5}>Learning</h2>
                             </div>
-                            <p style = {size6}>When it comes to business success, passion is not enough. 
-                            Even hard work is not an ideal. There are tools that a business owner needs to constantly apply to remain afloat. 
-                            HOSCE has developed such tools that will transform your life and business. We have the following courses;</p>
-                             <p style = {size6}>1.	TRF 101: Transformational Business Leadership. </p>
-                             <p style = {size6}>2.	TRF 302: Advanced Customer Driving Tools. </p>
-                             <p style = {size6}>3.	 TRF 305: HOSCE Business Strategy and Execution.</p>
+                            <p style = {size6}>Whether you are a corporate organization, 
+                            a private enterprise or an individual wanting to acquire new knowledge in the field of management and leadership,
+                             HOSCE will help you to scale the heights and become your dream.
+                             HOSCE Business Management & Leadership Programme covers corporate management programme,
+                              Leadership and SMEs programme.</p>
+                             <p style = {size6}>1.	 Corporate management programme. </p>
+                             <p style = {size6}>2.	Advance leadership programme. </p>
+                             <p style = {size6}>3.	Small scale enterprise programme.</p>
+                             <p>With the Award of Professional Diploma Certificate.</p>
                               <p style = {size6}><Link to="/learning" title="Learning">Click Here</Link> to learn more.</p>
                         </div>
                     </div>

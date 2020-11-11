@@ -26,7 +26,7 @@ const EventSingle = (props) => {
                                 </div>
                                 <div className="wpo-event-details-text">
                                     <h2>Hosce Programme Takes Off</h2>
-                                    <p>The Management of The Rock Fes Announce lauches HOSCE Programme on 20th September 2020</p>
+                                    <p>The Management of The Rock Fes lauches HOSCE Programme on 20th September 2020</p>
                                     <p>To God be the Glory</p>
                                 </div>
                                 <div className="wpo-event-details-text">
