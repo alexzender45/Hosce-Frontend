@@ -1,18 +1,18 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import Register from '../../components/Register'
+import MakeMoney from '../../components/makeMoney'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 
 
-const RegisterForm =() => {
+const HosceMakeMoney =() => {
     return(
         <Fragment>
             <Header/>
-            <Register/>
+            <MakeMoney/>
             <Footer/>
             <Scrollbar/>
         </Fragment>
     )
 };
-export default RegisterForm;
+export default HosceMakeMoney;

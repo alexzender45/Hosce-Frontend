@@ -24,26 +24,18 @@ const Header = () => {
                                     <li><Link className="active" to="/home">Home</Link></li>
                                  </ul>
                             </li>
-                            <li><Link to="/training" title="">Training</Link>
-                            <ul>
-                                    <li><Link to="/training" title="">Training</Link></li>
-                                </ul>
-                            </li>
-                            <li><Link to="/makeMoney" title="">Hosce</Link>
+                            <li><Link to="/profile" title="">Profile</Link></li>
+                            <li><Link to="/register" title="">Register</Link>
                                 <ul>
-                                    <li><Link to="/makeMoney" title="">Hosce</Link></li>
+                                    <li><Link to="/donate" title="">Register</Link></li>
                                 </ul>
                             </li>
-                            <li><Link to="/easyway" title="">Easy-Way</Link>
-                            <ul>
-                                    <li><Link to="/easyway" title="">Esay-Way</Link></li>
-                                </ul>
-                            </li>
+                            <li><Link to="/learning" title="">Learning</Link></li>
                             {/* <li><Link to="/login" title="">Login</Link>
                             </li> */}
-                            <li><Link to="/realEstate" title="">Real-Estate</Link>
+                            <li><Link to="/event" title="">Event</Link>
                                 <ul>
-                                    <li><Link to="/realEstate" title="">Real-Estate</Link></li>
+                                    <li><Link to="/event" title="">Event</Link></li>
                                 </ul>
                             </li>
                             <li><Link to="/login">Account</Link>
@@ -51,6 +43,7 @@ const Header = () => {
                                             <li><Link to="/login" title="">Account</Link></li>
                                         </ul>
                                     </li>
+                            <li><Link to="/contact" title="">Contact</Link></li>
                         </ul>
                     </nav>
                 </div>

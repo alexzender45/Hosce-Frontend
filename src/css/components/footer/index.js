@@ -31,6 +31,9 @@ const Footer = (props) =>{
                                 <h3>Useful Links</h3>
                             </div>
                             <ul>
+                                <li><Link onClick={ClickHandler} to="/profile">About Us</Link></li>
+                                <li><Link onClick={ClickHandler} to="/event">Event</Link></li>
+                                <li><Link onClick={ClickHandler} to="/learning">Learning</Link></li>
                                 <li><Link onClick={ClickHandler} to="/contact">Contact Us</Link></li>
                                 <li><Link onClick={ClickHandler} to="/register">Register</Link></li>
                             </ul>
@@ -39,7 +42,7 @@ const Footer = (props) =>{
                     <div className="col col-lg-3 offset-lg-1 col-md-6 col-sm-12 col-12">
                         <div className="widget market-widget wpo-service-link-widget">
                             <div className="widget-title">
-                                <h3 style = {{ color: 'white'}}><Link to="/contact" title="">Contact</Link></h3>
+                                <h3>Contact </h3>
                             </div>
                             <div className="contact-ft">
                                 <ul>

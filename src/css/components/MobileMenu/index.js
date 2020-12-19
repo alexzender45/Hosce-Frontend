@@ -12,8 +12,8 @@ const menus = [
 
     {
         id: 2,
-        title: 'Training',
-        link: '/training',
+        title: 'Profile',
+        link: '/profile',
     },
 
     {
@@ -23,19 +23,24 @@ const menus = [
     },
    {
         id: 4,
-        title: 'MakeMoney',
-        link: '/makeMoney',
+        title: 'Learning',
+        link: '/learning',
     },
 
     {
         id: 5,
-        title: 'EasyWay',
-        link: '/easyway',
+        title: 'Events',
+        link: '/event',
     },
     {
         id: 6,
         title: 'Account',
         link: '/login',
+    },
+    {
+        id: 7,
+        title: 'Contact',
+        link: '/contact',
     },
 ]
 

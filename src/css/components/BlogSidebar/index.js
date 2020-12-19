@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import blog6 from '../../images/blog-details/bitcoin 2.jpg'
+import ins1 from '../../images/recent-posts/img-1.jpg'
 
 
 import './style.css'
@@ -15,7 +15,7 @@ const BlogSidebar = () => {
                     <div className="posts">
                         <div className="post">
                             <div className="img-holder">
-                                <img src={blog6} alt=""/>
+                                <img src={ins1} alt=""/>
                             </div>
                             <div className="details">
                                 <h4><Link to="/blog-details">Next Learning BY October 20</Link></h4>

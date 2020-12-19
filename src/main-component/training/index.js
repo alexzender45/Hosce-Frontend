@@ -1,18 +1,18 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import EventSingle from '../../components/EventSingle'
+import Trainings from '../../components/training'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 
 
-const EventPageSingle =() => {
+const Training =() => {
     return(
         <Fragment>
             <Header/>
-            <EventSingle/>
+            <Trainings/>
             <Footer/>
             <Scrollbar/>
         </Fragment>
     )
 };
-export default EventPageSingle;
+export default Training;

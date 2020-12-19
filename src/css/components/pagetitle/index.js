@@ -9,8 +9,7 @@ const PageTitle = (props) => {
                     <div className="col-12">
                         <div className="wpo-breadcumb-wrap">
                             
-                                <h1 style = {size}>Esay-Way</h1>
-                                <h4 style = {size}>CRYPTO CURRENCY TRADING / LAPTOP COMPUTERS</h4>
+                                <h1 style = {size}>Learn To Succeed</h1>
                         </div>
                     </div>
                 </div>
