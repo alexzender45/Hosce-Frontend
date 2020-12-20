@@ -74,7 +74,6 @@ const BlogSingle = () => {
             </div>
         </section>
      )
-        
 }
 const size3 = {
     fontSize: '60px',
