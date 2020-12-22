@@ -18,8 +18,8 @@ const menus = [
 
     {
         id: 3,
-        title: 'Register',
-        link: '/register',
+        title: 'Real-Estate',
+        link: '/realEstate',
     },
    {
         id: 4,
