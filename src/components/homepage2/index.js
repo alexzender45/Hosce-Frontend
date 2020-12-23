@@ -34,9 +34,8 @@ const Mission = (props) => {
                                 <div className="wpo-mission-content">
                                 <FadeIn>
                                     <h2 style = {size5}>Traning</h2>
-                                    </FadeIn>A
-                                    Our Offer:
-                                    <p>1. Business Management & Leadership Programme. 2. Hosce Make Money Programme</p>
+                                    </FadeIn>
+                                    <p>Business management and Leadership programme for corporate   leaders, with an award of professional diploma certificate.</p>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +46,7 @@ const Mission = (props) => {
                                 </div>
                                 <div className="wpo-mission-content">
                                     <h2 style = {size5}> Hosce</h2>
-                                    <p>To create a platform that assists people in building business and make money, to become successful in life.</p>
+                                    <p>This platform enables members to earn instant income into their local bank account. To join, choose the package that you want.</p>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +57,7 @@ const Mission = (props) => {
                                 </div>
                                 <div className="wpo-mission-content">
                                     <h2 style = {size5}>Esay-Way</h2>
-                                    <p>We help you invest in Digital Currency and make sure you benefit, we also sell best and good Laptops Computers</p>
+                                    <p>This deals with crypto currency business. We help you to get started. Also, you can purchase quality laptop from us. </p>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +68,7 @@ const Mission = (props) => {
                                 </div>
                                 <div className="wpo-mission-content">
                                     <h2 style = {size5}> Real-Estate</h2>
-                                    <p>We help you to Buy and Sell Buildings, Houses, and Lands at affordable prices. Leave your stress to us we are there to help</p>
+                                    <p>We buy and sell lands, buildings and houses. We also under take supervision of construction sites and supply building materials.</p>
                                 </div>
                             </div>
                         </div>

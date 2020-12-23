@@ -11,7 +11,32 @@ const BlogSingle = () => {
                     <div className="col col-lg-8 col-12">
                         <div className="wpo-wpo-blog-content clearfix">
                             <div className="post">
-                            <h1 style ={size3}>HOSCE PACKAGE</h1>
+                            <h1 style ={size3}>HOSCE MAKE MONEY</h1>
+                            <p>People that make money and become rich do not have two heads. HOSCE make money is introduced for people who believe in a bright future. 
+                                The programme is based on the principle that success, riches and wealth come through others. TRF created a platform that enables members to build wealth by maximizing their relationship capitals.
+                                 The concept is built on the following;
+                                 </p>
+                                 <ul>
+                                     <li>OPM: Other Peoples’ Money.</li>
+                                     <li>OPT: Other Peoples’ Time</li>
+                                     <li>  OPI: Other Peoples’ Ideas.</li>
+                                     <li>OPE: Other Peoples’ Enterprise.</li>
+                                 </ul>
+                                 <h3 style ={size4}>OUR OPERATIONS</h3>
+                                 <p>The aim is to enable members to make money. Part of the registration fee is used to open and fund 
+                                     members’ CRYPTOCURRENCY WALLET. This automatically makes you an investor and you can withdraw your
+                                      money anytime. In this way, you will make daily income without referring anyone to join the progamme.
+                                      Although you are paid for referring people to the programme. However, referral is by choice.
+                                      </p>
+                                      <h3 style ={size4}>BENEFITS</h3>
+                                      <ol>
+                                          <li>You are paid 25% of your registration fee and the money will be credited to your crypto 
+                                              wallet instantly. You can withdraw your money anytime.
+                                              </li>
+                                              <li>You will earn 20℅ income from direct partners' registration fees as direct income</li>
+                                              <li>You will earn 5℅ income from indirect partners under you.</li>
+                                      </ol>
+                            <h3 style ={size4}>HOSCE PACKAGE</h3>
                                  <h2><b>A. STARTER PACKAGE</b></h2>
                                  <p><b>Registration Fee: #5,500 / $15</b></p>
                                  <h4 style = {{ textAlign: 'center' }}>BENEFITS</h4>
@@ -77,6 +102,10 @@ const BlogSingle = () => {
 }
 const size3 = {
     fontSize: '60px',
+    textAlign: 'center'
+}
+const size4 = {
+    fontSize: '30px',
     textAlign: 'center'
 }
 export default BlogSingle;
